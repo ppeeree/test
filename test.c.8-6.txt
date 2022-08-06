@@ -1,0 +1,27 @@
+# include <iostream>
+using namespace std;
+
+int main()
+{
+	//cout << "hello world" << endl;
+	//char ch = 'a';
+	//cout << (int)ch << endl;
+	//水平制表符\t 使显示台输出的效果更加整齐
+	//cout << "aaaa\thelloworld" << endl;
+	//cout << "aa\thelloworld" << endl;
+	///cout << "aaaaaa\thelloworld" << endl;
+
+	//char str[] = "hello world"; 
+	//string str2 = "hello world";//用string来表示一个字符组
+	//cout << str2 << endl;
+	//bool flag = true;   //布尔类型 
+	//cout << flag << endl;
+	int a = 0;
+	cout << "请给a赋值" << endl;
+	cin >> a;//相当于c语言里面的scanf_s
+	cout << "整型变量a=" << a << endl;
+
+	system("pause");
+	return 0;
+
+}
